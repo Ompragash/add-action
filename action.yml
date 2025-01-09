@@ -1,5 +1,5 @@
 name: "Multi-output Example Action"
-description: "An example GitHub Action that exports more than one output variable"
+description: "Maths Action - An example GitHub Action that exports more than one output variable"
 inputs:
   input1:
     description: "First input value"

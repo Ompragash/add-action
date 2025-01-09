@@ -1,5 +1,5 @@
 {
-  "name": "add-action",
+  "name": "maths-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ompragash/add-action.git"
+    "url": "git+https://github.com/Ompragash/maths-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ompragash/add-action/issues"
+    "url": "https://github.com/Ompragash/maths-action/issues"
   },
-  "homepage": "https://github.com/Ompragash/add-action#readme",
+  "homepage": "https://github.com/Ompragash/maths-action#readme",
   "devDependencies": {
     "esbuild": "^0.24.2"
   },
