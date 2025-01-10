@@ -14,8 +14,12 @@ outputs:
     description: "The sum of the input values"
   product:
     description: "The product of the input values"
-  output-message:
+  message:
     description: "A custom message"
+  dash-out:
+    description: "Test Output with -dash"
+  underscore_out:
+    description: "Test Output with _underscore"
 runs:
   using: "node16"
   main: "dist/index.js"
