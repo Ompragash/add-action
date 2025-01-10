@@ -15,7 +15,7 @@ try {
   // Set outputs
   core.setOutput('sum', sum);
   core.setOutput('product', product);
-  core.setOutput('message', message);
+  core.setOutput('output-message', message);
 } catch (error) {
   core.setFailed(error.message);
 }

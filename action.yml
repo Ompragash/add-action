@@ -14,7 +14,7 @@ outputs:
     description: "The sum of the input values"
   product:
     description: "The product of the input values"
-  message:
+  output-message:
     description: "A custom message"
 runs:
   using: "node16"
