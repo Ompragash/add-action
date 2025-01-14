@@ -12,10 +12,8 @@ try {
   // Create a custom message
   const message = `The inputs are ${input1} and ${input2}. Sum is ${sum}, product is ${product}.`;
 
-  // Set outputs
-  core.setOutput('sum', sum);
-  core.setOutput('product', product);
-  core.setOutput('message', message);
+  // Print the message
+  console.log(message);
 } catch (error) {
   core.setFailed(error.message);
 }

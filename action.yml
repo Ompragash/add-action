@@ -9,13 +9,6 @@ inputs:
     description: "Second input value"
     required: true
     default: "20"
-outputs:
-  sum:
-    description: "The sum of the input values"
-  product:
-    description: "The product of the input values"
-  message:
-    description: "A custom message"
 runs:
   using: "node16"
   main: "dist/index.js"

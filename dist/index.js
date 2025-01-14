@@ -19789,9 +19789,7 @@ try {
   const sum = input1 + input2;
   const product = input1 * input2;
   const message = `The inputs are ${input1} and ${input2}. Sum is ${sum}, product is ${product}.`;
-  core.setOutput("sum", sum);
-  core.setOutput("product", product);
-  core.setOutput("message", message);
+  console.log(message);
 } catch (error) {
   core.setFailed(error.message);
 }
